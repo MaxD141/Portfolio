@@ -55,7 +55,7 @@
         grid-column: 1;
         color: #edf5fc;
         font-family: "Times New Roman";
-        font-size: 0.5rem;
+        font-size: clamp(0.5rem, 0.75rem, 1.25rem);
         position: relative;
         width: 95%;
         border-right: 20px solid #1c1c84;
@@ -68,7 +68,7 @@
         position: relative;
         grid-column: 2;
         width: 100%;
-        margin-left: 4%;
+        margin-left: 10%;
         top: 20px;
         grid-row: 1;
         object-fit: cover;
@@ -496,7 +496,7 @@
     margin-left: 5%;
     margin-right: 5%;
 }
-@media (max-width: 768px){
+@media (max-width: 1000px){
     .afterlivesSettings,
     .afterlivesEnemy,
     .afterlivesGameplay,
