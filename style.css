@@ -57,11 +57,12 @@
         font-family: "Times New Roman";
         font-size: clamp(0.5rem, 1rem, 1.25rem);
         position: relative;
-        width: 95%;
+        width: 100%;
         border-right: 20px solid #1c1c84;
         border-left: 20px solid #1c1c84;
         top: 20px;
         grid-row: 1;
+        box-sizing: border-box;
     }
     .landingPage .background{
         position: relative;
