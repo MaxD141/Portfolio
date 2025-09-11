@@ -67,8 +67,7 @@
     .landingPage .background{
         position: relative;
         grid-column: 2;
-        width: 100%;
-        margin-left: 10%;
+        width: 104%;
         top: 20px;
         grid-row: 1;
         object-fit: cover;
