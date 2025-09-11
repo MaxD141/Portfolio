@@ -30,7 +30,7 @@
     text-align: center;
 }
 .aboutMeText{
-    font-size: 20px;
+    font-size: clamp(0.5rem, 2vw + 0.5rem, 1.25rem);
     padding-left: 17.5%;
     width: 65%;
 }
@@ -55,7 +55,7 @@
         grid-column: 1;
         color: #edf5fc;
         font-family: "Times New Roman";
-        font-size: clamp(0.25rem, 0.75rem, 1.25rem);
+        font-size: clamp(0.5rem, 1rem, 1.25rem);
         position: relative;
         width: 95%;
         border-right: 20px solid #1c1c84;
