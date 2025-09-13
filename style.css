@@ -72,7 +72,7 @@ body{
         font-size: 20px;
         position: relative;
         width: 30%;
-        padding-top: 5%;
+        padding-top: 3%;
         padding-left: 3%;
         padding-right: 3%;
         box-sizing: border-box;
@@ -150,7 +150,7 @@ transparent black text box over it, with the upper margin being the same percent
     }
     .footer{
         align-items: center;
-        text-align: center;
+        padding-left: 35%;
     }
 }
 
