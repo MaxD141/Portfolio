@@ -60,6 +60,7 @@ body{
         grid-auto-rows: min-content;
         min-height: 0;
         margin-top: 10%;
+        width: 30%;
     }
     .landingPage .welcomeText{
         background-color: rgba(28, 28, 132, 0.8);
@@ -84,8 +85,8 @@ body{
         z-index: 1;
         grid-row: 1;
         grid-column: 1;
-        min-height: 40vh;
-        height: 40ch;
+        min-height: 50vh;
+        height: 50ch;
         object-fit: cover;
     }
 }
@@ -111,7 +112,7 @@ transparent black text box over it, with the upper margin being the same percent
     padding-left: 16px;
     padding-right: 16px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     height: 100%;
     display: flex;
     place-items: center;
