@@ -112,7 +112,7 @@ transparent black text box over it, with the upper margin being the same percent
     padding-left: 16px;
     padding-right: 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 24px;
     height: 100%;
     display: flex;
     place-items: center;
@@ -141,16 +141,16 @@ transparent black text box over it, with the upper margin being the same percent
 }
 
 @media (max-width: 1000px){
+    .footer{
+        align-items: center;
+        margin-left: 35%;
+    }
     .footer table, td{
         display: block;
     }
     .footer td{
         text-align: center;
         align-items: center;
-    }
-    .footer{
-        align-items: center;
-        padding-left: 35%;
     }
 }
 
@@ -170,6 +170,7 @@ transparent black text box over it, with the upper margin being the same percent
 }
 
 .saveCyber{
+    margin-top: 2.5%;
     text-align: center;
     font-size: 16px;
 }
@@ -332,6 +333,9 @@ transparent black text box over it, with the upper margin being the same percent
         margin-left: 5%;
         margin-right: 5%;
     }
+    .saveCyber{
+        margin-top: 7.5%;
+    }
 }
 
 
@@ -339,6 +343,7 @@ transparent black text box over it, with the upper margin being the same percent
 
 /* OTHER PROJECTS PAGE */
 .afterlives{
+    margin-top: 2.5%;
     text-align: center;
     font-size: 16px;
 }
@@ -530,5 +535,8 @@ transparent black text box over it, with the upper margin being the same percent
         flex-direction: column;
         margin-left: 5%;
         margin-right: 5%;
+    }
+    .afterlives{
+        margin-top: 7.5%;
     }
 }
