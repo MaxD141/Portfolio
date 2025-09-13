@@ -142,14 +142,18 @@ transparent black text box over it, with the upper margin being the same percent
 
 @media (max-width: 1000px){
     .footer{
+        display: flex;
+        justify-content: center;
         align-items: center;
+        flex-direction: column;
+        text-align: center;
     }
-    .footer table, td{
-        display: block;
+    .footer table{
+        margin: 0 auto;
     }
     .footer td{
         text-align: center;
-        align-items: center;
+        display: block;
     }
 }
 
