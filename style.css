@@ -58,7 +58,6 @@ body{
         grid-auto-rows: min-content;
         min-height: 0;
         margin-top: 10%;
-        margin-bottom: 10%;
     }
     .landingPage .welcomeText{
         background-color: rgba(28, 28, 132, 0.8);
@@ -70,8 +69,9 @@ body{
         font-size: 20px;
         position: relative;
         width: 20%;
-        padding-left: 2%;
-        padding-right: 2%;
+        padding-top: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
         box-sizing: border-box;
         min-height: 40vh;
         height: auto;
@@ -84,6 +84,7 @@ body{
         grid-column: 1;
         min-height: 40ch;
         height: 40vh;
+        object-fit: cover;
     }
 }
 /* Landing page really struggles to work on mobile, so i think I get a new image, pit it as width100% no grid, and then put a
