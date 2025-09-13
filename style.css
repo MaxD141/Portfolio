@@ -39,22 +39,25 @@ body{
 .aboutMeText{
     font-size: clamp(0.5rem, 2vw + 0.5rem, 1.25rem);
     padding-left: 17.5%;
-    width: 65%;
+    padding-right: 17.5%;
 }
 .achievements{
     text-align: left;
     margin-left: 15%;
     font-size: 18px;
-    margin-right: 20%;
+    padding-right: 20%;
 }
 
 @media (max-width: 1000px){
     .landingPage{
         display: grid;
-        height: auto;
+        height: 40vh;
+        max-height: 40vh;
         gap: 0;
         grid-auto-rows: min-content;
         min-height: 0;
+        margin-top: 5%;
+        margin-bottom: 10%;
     }
     .landingPage .welcomeText{
         background-color: rgba(28, 28, 132, 0.8);
@@ -63,21 +66,23 @@ body{
         z-index: 2;
         color: #edf5fc;
         font-family: "Times New Roman";
-        font-size: 1.25rem;
+        font-size: 20px;
         position: relative;
         width: 20%;
         padding-left: 2%;
         padding-right: 2%;
         box-sizing: border-box;
+        min-height: 40vh;
+        height: auto;
     }
     .landingPage .background{
-        position: relative;
-        grid-column: 1;
-        grid-row: 1;
-        z-index: 1;
+       position: relative;
         width: 100%;
-        object-fit: cover;
-        height: 100%;
+        z-index: 1;
+        grid-row: 1;
+        grid-column: 1;
+        min-height: 40ch;
+        height: 40vh;
     }
 }
 /* Landing page really struggles to work on mobile, so i think I get a new image, pit it as width100% no grid, and then put a
