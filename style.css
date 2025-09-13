@@ -54,8 +54,8 @@ body{
 @media (max-width: 1000px){
     .landingPage{
         display: grid;
-        height: 50vh;
-        max-height: 50vh;
+        height: 40vh;
+        max-height: 40vh;
         gap: 0;
         grid-auto-rows: min-content;
         min-height: 0;
@@ -76,7 +76,7 @@ body{
         padding-left: 3%;
         padding-right: 3%;
         box-sizing: border-box;
-        min-height: 50vh;
+        min-height: 40vh;
         height: auto;
     }
     .landingPage .background{
@@ -85,8 +85,8 @@ body{
         z-index: 1;
         grid-row: 1;
         grid-column: 1;
-        min-height: 50vh;
-        height: 50ch;
+        min-height: 40vh;
+        height: 40ch;
         object-fit: cover;
     }
 }
