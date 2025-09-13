@@ -33,6 +33,7 @@ body{
     z-index: 1;
     grid-row: 1;
     grid-column: 1;
+    display: block;
 }
 
 .aboutMe{
@@ -79,12 +80,12 @@ body{
     }
     .landingPage .background{
        position: relative;
-        width: 100vw;
+        width: 100%;
         z-index: 1;
         grid-row: 1;
         grid-column: 1;
         min-height: 50ch;
-        height: 50vh;
+        height: auto;
         object-fit: cover;
     }
 }
