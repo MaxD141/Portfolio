@@ -79,6 +79,7 @@
     background-color: #272d2d;
     overflow: hidden;
     width: 101.2%;
+    height: 7.5%;
     position: fixed;
     z-index: 100;
     margin-top: 5px;
@@ -90,17 +91,17 @@
     float: left;
     color: #edf5fc;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 16px;
     text-decoration: none;
     font-size: 18px;
-}
-.navbar a.hover{
-    background-color: #edf5fc;
-    color: #272d2d;
+    height: 100%;
 }
 .navbar a.active{
     background-color: #1c1c84;
     color: #edf5fc;
+}
+.navbar a:hover{
+    background-color: #1c1c70;
 }
 
 .footer{
