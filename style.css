@@ -150,6 +150,13 @@ transparent black text box over it, with the upper margin being the same percent
     }
     .footer table{
         margin: 0 auto;
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    .footer tr{
+        display: block;
+        width: 100%;
     }
     .footer td{
         text-align: center;
