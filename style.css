@@ -60,6 +60,7 @@ body{
         grid-auto-rows: min-content;
         min-height: 0;
         margin-top: 10%;
+        width: 100%;
     }
     .landingPage .welcomeText{
         background-color: rgba(28, 28, 132, 0.8);
