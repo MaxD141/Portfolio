@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./styles/global.css";
+import "./styles/Global.css";
 import App from "./App";
 
 // This is the entry point — it finds the <div id="root"> in public/index.html
