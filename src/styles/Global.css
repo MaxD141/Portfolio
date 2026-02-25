@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; overscroll-behavior: none;}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: #1a1a1a;
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.tag {
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom: 16px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #555;
+  font-weight: 300;
+  margin-bottom: 36px;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  height: 60px;
+  background: #333;
+  width: 100%;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.navButton{
+  height: 100%;
+  min-width: 10%;
+  margin-right: 10px;
+  background: #333;
+  border: none;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #888;
+  font-weight: 300;
+}
+
+.navButton:hover{
+  background: #222;
+  color: #DDD;
+  border-left: 4px solid #1C1C1C;
+  border-right: 4px solid #1C1C1C;
+}
+
+.background{
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  margin-bottom: 0;
+  display: block;
+  position: fixed;
+}
+
+.spacer{
+  width: 100%;
+  height: auto;
+  display: block;
+  visibility: hidden;
+}
+
+.contents{
+  width: 100%;
+  background-color: white;
+}
+
+.contentDivider{
+  width: 100%;
+  height: 30px;
+  z-index: 2;
+  margin-top: 0;
+  display: block;
+  background-color: #333;
+  color: none;
+  box-shadow: 0px 0px 5px 10px rgba(6, 6, 6, 0.25);
+}
+
+.aboutMe{
+  margin: 7%;
+  margin-top: 4%;
+  margin-bottom: 0;
+}
+
+.aboutMeText{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.skills{
+  margin: 7%;
+  margin-top: 4%;
+}
+
+.skillsText{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  margin-left: 7%;
+  margin-right: 5%;
+  margin-bottom: 0;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #555;
+  font-weight: 300;
+}
+
+.skillsText .list1{
+  grid-column: 1;
+}
+
+.skillsText .list2{
+  grid-column: 2;
+}
+
+.skillsText .list3{
+  grid-column: 3;
+}
+
+.skillsText .list4{
+  grid-column: 4;
+}
+
+.achievements{
+  margin: 7%;
+  display: block;
+  margin-top: -3%;
+}
+
+.achievementsList{
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #555;
+  font-weight: 300;
+  margin-bottom: 36px;
+}
+
+.contacts{
+  text-align: center;
+}
+
+.contactLine{
+  color: #555;
+  display: flex;
+}
+
+.contactLinks{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+.homePage{
+  animation: rise 0.6s ease both;
+}
+
+.card {
+  background: #fff;
+  width: 80%;
+  margin: 10%;
+  margin-top: 3%;
+  margin-bottom: 0;
+  min-height: 160px;
+  box-shadow: 8px 8px 24px rgba(6, 6, 6, 0.25);
+  animation: rise 0.6s ease both;
+}
+
+.card:hover{
+  box-shadow: 8px 8px 36px rgba(9, 9, 9, 0.25);
+}
+
+.projectName{
+  display: inline-block;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #888;
+  margin-left: 4%;
+  margin-top: 1.5%;
+  margin-bottom: 0.5%;
+}
+
+.projectText{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 0.5%;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #555;
+  font-weight: 300;
+}
+
+.bottomBreak{
+  margin-bottom: 100px;
+}
