@@ -25,6 +25,7 @@ export default function Skills(){
                     <li>TypeScript</li>
                     <li>Git</li>
                     <li>RISC-V</li>
+                    <li>Haskell</li>
                 </ul>
             </div>
         </div>

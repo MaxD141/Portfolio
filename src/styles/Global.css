@@ -166,7 +166,30 @@ p {
 
 .contactLine{
   color: #555;
-  display: flex;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 3fr 1fr 3fr 1fr;
+}
+
+.contactLine .beforeLine{
+  width: 100%;
+  grid-column: 2;
+  color: #333;
+  margin-right: 5%;
+}
+
+.contactLine .contactText{
+  grid-column: 3;
+  margin-top: 20%;
+  border-left: 2px solid #333;
+  border-right: 2px solid #333;
+}
+
+.contactLine .afterLine{
+  width: 100%;
+  grid-column: 4;
+  color: #333;
+  margin-left: 5%;
 }
 
 .contactLinks{
@@ -174,6 +197,21 @@ p {
   justify-content: space-evenly;
   align-items: center;
   list-style: none;
+}
+
+.contactLinks a, .contactLinks a:visited{
+  text-decoration: none;
+  background-color: #333;
+  color: #888;
+  border-radius: 20px;
+  padding: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0px 0px 18px rgba(6, 6, 6, 0.5);
+}
+
+.contactLinks a:hover{
+  color: #DDD;
 }
 
 .homePage{

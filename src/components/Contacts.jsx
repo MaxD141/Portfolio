@@ -1,14 +1,17 @@
 export default function({ links }){
     return(
         <div className="contacts">
-            <p classname="contactLine">
-                ------------------------------ Contact Me ------------------------------
-            </p>
+            <div className="contactLine">
+                <hr className="beforeLine" />
+                <p className="contactText"> Contact Me </p>
+                <hr className="afterLine" />
+            </div>
             <ul className="contactLinks">
                 {links.map((link) => (
-                <li key={link.label}>
-                    <a href={link.href}>{link.label}</a>
-                </li>
+                <a key={link.label}
+                    href={link.href}>
+                        {link.label}
+                </a>
                 ))}
             </ul>
         </div>
